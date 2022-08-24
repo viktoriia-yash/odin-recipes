@@ -1,26 +1,14 @@
-/* 
-body,
-html {
-  min-height: 100%;
-  margin: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-*/
+/* page one */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
+.homepage {
   height: 100vh;
   width: 100%;
   background: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .slideshow-container {
@@ -91,7 +79,7 @@ li {
 }
 
 li a {
-  font-family: Anton;
+  font-family: "Anton", sans-serif;
   font-size: 18px;
   display: inline-block;
   color: #000000;
@@ -100,7 +88,114 @@ li a {
   text-decoration: none;
 }
 
+.shrimp:hover {
+  color: #ff5d8f;
+}
+
+.soup:hover {
+  color: #ff7900;
+}
+
+.smoothie:hover {
+  color: #bc8a5f;
+}
+
+.credits-link:hover {
+  color: #ccd904;
+}
+
 h1 {
   display: inline-block;
   background-color: #fff;
+}
+
+/* page two */
+.recipes-body {
+  background-color: #fff;
+  margin: 0;
+}
+
+.recipe-one-cont,
+.recipe-two-cont,
+.recipe-three-cont,
+.credits {
+  max-width: 100%;
+  width: 750px;
+  background-color: #fff;
+  border-color: #000000;
+  padding: 55px;
+  margin: 170px auto 170px auto;
+}
+
+.recipe-one-cont {
+  border: 3px solid #ff0a54;
+  box-shadow: -70px -33px #ff0a54;
+}
+
+.recipe-two-cont {
+  border: 3px solid #ff5400;
+  box-shadow: -70px -33px #ff5400;
+}
+
+.recipe-three-cont {
+  border: 3px solid #bc8a5f;
+  box-shadow: -70px -33px #bc8a5f;
+}
+
+.credits {
+  border: 3px solid #ccd904;
+  box-shadow: -70px -33px #ccd904;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 130px;
+  text-align: right;
+  padding: 70px 0 30px 0;
+  margin: 0;
+}
+
+.time {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 15px;
+  border: 3px solid #000000;
+}
+
+.description p,
+.ingredients p,
+.directions p,
+.credits p {
+  font-size: 16px;
+  line-height: 150%;
+  padding: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 43px;
+}
+
+h5 {
+  font-family: Arial;
+  font-size: 23px;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+
+.ready-food {
+  max-width: 550px;
+  margin: 10px auto 0 auto;
+}
+
+.source {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
 }
